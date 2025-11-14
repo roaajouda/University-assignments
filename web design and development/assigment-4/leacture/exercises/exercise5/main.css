@@ -1,0 +1,25 @@
+
+.wrapper {
+    perspective: 800px; 
+    width: 300px;
+    margin: 50px auto;
+}
+
+.box {
+    width: 300px;
+    height: 200px;
+    background: linear-gradient(135deg, #4caf50, #2e7d32);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 12px;
+    transition: transform 0.6s ease;
+    transform-style: preserve-3d;
+}
+
+.box:hover {
+    transform: rotateY(25deg) rotateX(10deg) scale(1.05);
+}

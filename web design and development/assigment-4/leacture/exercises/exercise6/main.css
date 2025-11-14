@@ -1,0 +1,18 @@
+
+      .article {
+        max-width: 700px;
+        margin: 100px auto;
+        line-height: 1.6;
+        font-size: 20px;
+      }
+      .article ::selection {
+        background: #4f8a4a;
+        color: white;
+
+        text-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+      }
+      .article ::-moz-selection {
+        background: #4f8a4a;
+        color: white;
+        text-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+      }

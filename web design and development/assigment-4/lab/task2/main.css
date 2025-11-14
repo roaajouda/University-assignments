@@ -1,0 +1,31 @@
+p{
+    color:red;
+}
+
+p, div{
+    line-height: 1.7;
+}
+
+#myDiv p.mainClass {
+    display: inline;
+}
+
+div p{
+    text-transform: capitalize;
+}
+
+span + div {
+    margin-bottom: 10px;
+}
+
+.mainClass {
+    background-color: aliceblue;
+}
+
+#myDiv {
+    font-size: 12px;
+}
+
+input[type="text"].myClass{
+    border: 1px solid black;
+}
